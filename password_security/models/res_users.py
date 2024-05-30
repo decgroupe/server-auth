@@ -109,7 +109,7 @@ class ResUsers(models.Model):
         if company_id.password_special:
             message.append(
                 _(
-                    "\n* Special character (at least % characters)"
+                    "\n* Special character (at least %s characters)"
                     % str(company_id.password_special)
                 )
             )
